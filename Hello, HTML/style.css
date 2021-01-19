@@ -1,0 +1,31 @@
+*{
+    font-family: sans-serif;
+    color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header, footer{
+    margin: 0;
+    padding: 10px;
+    background-color: #008000;
+}
+header > p, footer > p{
+    text-align: center;
+}
+div#container{
+    margin: 0 200px;
+    background-color: #0000FF;
+    padding: 30px 100px;
+}
+div#square{
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    float: left;
+    margin: 25px;
+}
+p#italic{ font-style: italic; }
+p#bold{ font-weight: bold; }
+p#underline{ text-decoration: underline; }
