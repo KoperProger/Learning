@@ -1,0 +1,21 @@
+input, button{
+    display: block;
+    width: 50%;
+    margin: 25px auto;
+    padding: 15px;
+}
+button{
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+button#log{
+    color: white;
+    background-color: blue;
+}
+button#sign{
+    background-color: #DDDDDD;
+    color: black;
+}
