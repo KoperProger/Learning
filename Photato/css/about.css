@@ -1,0 +1,11 @@
+div.text-block{ margin: 25px; }
+img{
+    width: 30%;
+    padding: 10px;
+}
+div.text-block:nth-child(even) img{
+    float: left;
+}
+div.text-block:nth-child(odd) img{
+    float: right;
+}

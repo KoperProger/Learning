@@ -1,6 +1,14 @@
+form{
+    width: 100%;
+    margin: 0 auto;
+}
+form *{
+    display: block;
+    width: 100%;
+}
 input, button{
     display: block;
-    width: 50%;
+    width: calc(100% - 30px);
     margin: 25px auto;
     padding: 15px;
 }
@@ -13,9 +21,9 @@ button{
 }
 button#log{
     color: white;
-    background-color: blue;
+    background-color: chocolate;
 }
 button#sign{
-    background-color: #DDDDDD;
-    color: black;
+    background-color: sandybrown;
+    color: white;
 }
