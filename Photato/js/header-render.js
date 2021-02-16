@@ -12,7 +12,7 @@ document.write(`
         </ul>
     </nav>
     <div id="logo">
-        <img src="./img/logo.png">
+        <a href="./index.html"><img src="./img/logo.png"></a>
         <h1>Photato<span>.com</span></h1>
     </div>
 </header>`)
